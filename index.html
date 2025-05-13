@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Transcript</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>YouTube Transcript</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#how">How It Works</a>
+      <a href="#transcript">Transcript Generator</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>This tool lets you extract and read YouTube video transcripts quickly and easily.</p>
+  </section>
+
+  <section id="how">
+    <h2>How It Works</h2>
+    <p>Just paste a YouTube video URL below, and we'll show you its transcript in seconds!</p>
+  </section>
+
+  <section id="transcript">
+    <h2>Generate Transcript</h2>
+    <input type="text" id="videoUrl" placeholder="Enter YouTube URL" />
+    <button onclick="generateTranscript()">Get Transcript</button>
+    <div id="output"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Created by Arya | JECRC University</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YouTube Transcript. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
